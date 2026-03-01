@@ -1,8 +1,8 @@
 body {
     /* This simulates the 85% zoom effect automatically */
-    zoom: 0.85; 
+    zoom: 0.9; 
     /* For browsers that don't support zoom (like Firefox) */
-    -moz-transform: scale(0.85);
+    -moz-transform: scale(0.9);
     -moz-transform-origin: top center;
     
     /* Keep your existing styles below */
@@ -39,3 +39,4 @@ body {
 }
 
 }
+
