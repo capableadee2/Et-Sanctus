@@ -1,4 +1,45 @@
-/* Delete everything else for a second and just paste this */
+
 body {
-    background-color: #00f2ff !important;
+    /* This simulates the 85% zoom effect automatically */
+    zoom: 0.85; 
+    /* For browsers that don't support zoom (like Firefox) */
+    transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    transform-origin: top center;
+    -moz-transform-origin: top center;
+    
+    /* Keep your existing styles below */
+    background-color: #00f2ff;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+
+/* This code only runs on screens smaller than 768px (phones) */
+@media screen and (max-width: 768px) {
+    body {
+        /* Reset zoom for mobile to prevent weird scaling */
+        zoom: 1; 
+        transform: scale(1);
+        -moz-transform: scale(1);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Forces everything to center */
+    }
+
+    .profile-img {
+        width: 60%; /* Makes your symbol fit nicely on a phone screen */
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Shrinks the title slightly so it doesn't wrap weirdly */
+    }
+
+    .image-button {
+        width: 80%; /* Makes the button nice and big for thumbs to tap */
+        max-width: 300px;
+    }
+}
+
 }
