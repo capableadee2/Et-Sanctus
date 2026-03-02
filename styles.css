@@ -3,7 +3,9 @@ body {
     /* This simulates the 85% zoom effect automatically */
     zoom: 0.85; 
     /* For browsers that don't support zoom (like Firefox) */
+    transform: scale(0.85);
     -moz-transform: scale(0.85);
+    transform-origin: top center;
     -moz-transform-origin: top center;
     
     /* Keep your existing styles below */
@@ -17,6 +19,7 @@ body {
     body {
         /* Reset zoom for mobile to prevent weird scaling */
         zoom: 1; 
+        transform: scale(1);
         -moz-transform: scale(1);
         padding: 20px;
         display: flex;
