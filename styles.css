@@ -1,3 +1,4 @@
+
 body {
     /* This simulates the 85% zoom effect automatically */
     zoom: 0.85; 
@@ -6,7 +7,7 @@ body {
     -moz-transform-origin: top center;
     
     /* Keep your existing styles below */
-    background-color: ##2bbdfb;
+    background-color: #00f2ff;
     text-align: center;
     margin: 0;
     padding: 50px;
@@ -39,6 +40,3 @@ body {
 }
 
 }
-
-
-
