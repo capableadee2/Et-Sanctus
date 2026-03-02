@@ -6,7 +6,7 @@ body {
     -moz-transform-origin: top center;
     
     /* Keep your existing styles below */
-    background-color: #00f2ff;
+    background-color: ##2bbdfb;
     text-align: center;
     margin: 0;
     padding: 50px;
@@ -39,5 +39,6 @@ body {
 }
 
 }
+
 
 
